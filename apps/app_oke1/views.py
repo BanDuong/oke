@@ -18,4 +18,9 @@ def School(request):
     y = 11
     z = 12
     return render(request, "<h2>Management!!!</h2>")
-    
+
+def University(request):
+    kk = 1234
+    qq = 4567
+    mm = 1900
+    return render(request, "<h5>---H5N1---</h5>", context={})
