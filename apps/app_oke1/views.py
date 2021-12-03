@@ -11,10 +11,11 @@ def newFuntion(request):
     return render(request, "<p>hello</p>")
 
 def Mangement(request):
+   return render(request, "<h2>Management!!!</h2>")
+
+def School(request):
     x = 10
     y = 11
     z = 12
-    k = 13
-    l = 14
-    h = 15
     return render(request, "<h2>Management!!!</h2>")
+    
