@@ -9,3 +9,6 @@ def index(request):
 
 def newFuntion(request):
     return render(request, "<p>hello</p>")
+
+def Mangement(request):
+    return render(request, "<h2>Management!!!</h2>")
