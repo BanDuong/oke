@@ -18,3 +18,6 @@ def Mangement(request):
     l = 14
     h = 15
     return render(request, "<h2>Management!!!</h2>")
+    
+def Student(request):
+    return render(request, "<h1>Testing</h1>")
